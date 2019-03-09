@@ -44,8 +44,8 @@ namespace API_Usage.Controllers
         };
 
         // Replace the API_KEY and BASE_ADDRESS with the values provided in class for the service
-        //const string apiKey = "API_KEY";
-        //client.BaseAddress = new Uri("BASE_ADRESS");
+        const string apiKey = "eMyb/Tsm9MQ8eWiU5itGYU2rVUvqSAtI3I3yyHqc1KkG4nuS5GWm+1oA5mAzfD0Z1cF8CWZAhgxYYI4WmghDvQ==";
+        client.BaseAddress = new Uri("https://ussouthcentral.services.azureml.net/workspaces/66a8bd564d2349b7ba3123986f38f907/services/d3ebe90fcbaa42acaed474a2675d4b56/execute?api-version=2.0&details=true12");
 
         client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
 
